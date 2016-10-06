@@ -75,8 +75,32 @@
                 </div>
             </div>
             <div class="row">
+                <div class="twelve columns" id="slides">
+                    <a href="#">
+                        <button id="playButton" onclick="changeThumbPrev()">&#10096;</button>
+                    </a>
+                    <a href="#">
+                        <img src="images/thumbnails/thumbnail19.jpg" id="left" onclick="leftButton()">
+                    </a>
+                    <a href="#">
+                        <img src="images/thumbnails/thumbnail01.jpg" id="center" onclick="centerButton()">
+                    </a>
+                    <a href="#">
+                        <img src="images/thumbnails/thumbnail02.jpg" id="right" onclick="rightButton()">
+                    </a>
+                    <a href="#">
+                        <button id="playButton" onclick="changeThumbNext()">&#10097;</button>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
                 <div class="twelve columns">
-                    
+                    <img src="images/picture01.jpg" id="mainImage">
+
+                    <div id="info">
+                        <h4 id="title">Rabbit</h4>
+                        <p id="description">Rabbit in the morning</p>
+                    </div>
                 </div>
             </div>
         </main>

@@ -132,3 +132,7 @@ main .row {
     background-color: lightyellow;
     color: midnightblue;
 }
+
+#slides img {
+    max-width: 220px; 
+}
